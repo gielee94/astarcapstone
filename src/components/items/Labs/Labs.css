@@ -1,0 +1,43 @@
+.labContainer {
+  justify-content: center;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 0 5rem;
+}
+
+.labData-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  flex-basis: calc(20% - 1rem); /* 20% for 5 columns */
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1200px) {
+  .labData-item {
+    flex-basis: calc(25% - 1rem); /* 25% for 4 columns */
+  }
+}
+
+@media (max-width: 900px) {
+  .labData-item {
+    flex-basis: calc(33.3333% - 1rem); /* 33.3333% for 3 columns */
+  }
+}
+
+@media (max-width: 600px) {
+  .labData-item {
+    flex-basis: calc(50% - 1rem); /* 50% for 2 columns */
+  }
+}
+
+@media (max-width: 450px) {
+  .labData-item {
+    flex-basis: calc(100% - 1rem); /* 100% for 1 column */
+  }
+}
