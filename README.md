@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# University of Washington, Master of Science in Information Management
+## Capstone Project, Team A-Star
+###GieMyung Lee
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
